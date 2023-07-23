@@ -1,0 +1,10 @@
+<%- include("partials/header"); -%>
+<h1>Compose</h1>
+<form action="/edithome" method="post">
+    <div class="form-group">
+        <label for="post">Add your Home note</label>
+        <textarea class="form-control" type="text" rows="10" id="hometext" name="hometext"></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit" name="change" id="change">Change</button>
+</form>
+<%- include("partials/footer"); -%>
